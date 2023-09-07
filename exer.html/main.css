@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 0 20px auto;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+    padding: 5px auto;
+    margin: 40px auto;
+    text-transform: uppercase;
+}
+
+input,button{
+    display: block;
+    padding: 8px;
+    margin: 8px auto;
+    width: 100%;
+    align-items:center;
+    resize: none;
+}
+
+button{
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(80, 77, 77);
+}
+
+
