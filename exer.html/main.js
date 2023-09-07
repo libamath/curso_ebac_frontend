@@ -11,15 +11,12 @@ form.addEventListener('submit', function(e) {
     const mensagemInsucesso= `Ops! É necessário que o valor do primeiro campo seja menor que do segundo para a validação ser correta.`
     let numero1 = document.getElementById("primeiro-numero").value;
     let numero2 = document.getElementById("segundo-numero").value;
-    parseInt(numero1)
-    parseInt(numero2)
-
-    formValido=valiNumber(numero1, numero2)
+    formValido=valiNumber(parseInt(numero1), parseInt(numero2))
     if(formValido){
         alert(mensagemSucesso)
     } else{
         alert(mensagemInsucesso)
     }
 })
-S
+S                   
 
