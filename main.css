@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    padding: 16px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+form{
+    margin-left: 65px;
+}
+
+
+form input{
+    /*Tamamanho da fonte*/
+    font-size: 15px;
+    /*Cor de fundo*/
+    background-color: #fff;
+    /*Colocando a borda inferior, tamanhode 2px, tipo solida e cor #000*/
+    border-bottom: 2px solid #000;
+    /*Espaçamento entre o inputs*/
+    padding: 16x;
+    
+}
+
+ol{
+    padding: 36px;
+    margin-left: 100px;
+}
+
+.atconcluidaividade-{
+    text-decoration: line-through;
+}
